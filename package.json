@@ -1,0 +1,20 @@
+{
+  "name": "todocli",
+  "version": "1.0.0",
+  "description": "Un ToDoList basico desde la CLI de Node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Joel Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
